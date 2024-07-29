@@ -69,6 +69,17 @@ footer {
   border-radius: 20px;
   background-color: var(--color-white);
   box-shadow: 8px 8px 0px 0px #000;
+
+  transition: all ease-in-out 0.2s;
+}
+
+.blog-card:hover {
+  box-shadow: 16px 16px 0px 0px #000;
+  .blog__content {
+    .blog__title {
+      color: var(--color-yellow);
+    }
+  }
 }
 
 .blog__img {
@@ -114,6 +125,8 @@ footer {
     align-self: stretch;
     font-size: var(--font-size-1);
     font-weight: 800;
+
+    transition: all ease-out 0.4s;
   }
 
   .blog__description {
